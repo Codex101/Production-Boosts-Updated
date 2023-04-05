@@ -1,0 +1,360 @@
+<ModOps>
+	<!-- Increase the production of Raw Resources by 50% and Doubles Storage Space to Fix Delivery Range -->
+	
+	<!-- Charcoal Kiln Artic -->
+
+	<ModOp Path="/Values/FactoryBase" GUID="114705" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					 <Product>1010226</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+		</FactoryBase>
+	</ModOp>
+
+	<ModOp Path="/Values/FactoryBase" GUID="114705" Type="add">
+			<CycleTime>15</CycleTime>
+	</ModOp>
+
+	<!-- Charcoal Kiln Old World -->
+
+	<ModOp Path="/Values/FactoryBase" GUID="1010298" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010226</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+		</FactoryBase>
+	</ModOp>
+
+	<ModOp Path="/Values/FactoryBase" GUID="1010298" Type="add">
+			<CycleTime>15</CycleTime>
+	</ModOp>
+
+	<!-- Clay Pit Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="100416" Type="merge">
+	<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010201</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Clay Pit Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="100416" Type="add">
+			<CycleTime>15</CycleTime>
+	</ModOp>
+
+	<!-- Clay Pit New World -->
+	<ModOp Path="/Values/FactoryBase" GUID="101267" Type="replace">
+	<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010201</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<IsMainFactory>0</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<ModOp Path="/Values/FactoryBase" GUID="101267" Type="add">
+		<CycleTime>15</CycleTime>
+	</ModOp>
+
+	<!-- Coal Mine Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010304" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010226</Product>
+					<Amount>2</Amount>
+					<StorageAmount>16</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Copper Mine Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010308" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010230</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<ModOp Path="/Values/FactoryBase" GUID="1010308" Type="add">
+		<CycleTime>15</CycleTime>
+	</ModOp>
+
+	<!-- Deep Gold Mine Artic -->
+	<ModOp Path="/Values/FactoryBase" GUID="116029" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010233</Product>
+					<Amount>1</Amount>
+					<StorageAmount>6</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>30</CycleTime>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Gas Mine Artic -->
+	<ModOp Path="/Values/FactoryBase" GUID="112690" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>112706</Product>
+					<Amount>1</Amount>
+					<StorageAmount>2</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>135</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Gold Mine New World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010311" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010233</Product>
+					<Amount>1</Amount>
+					<StorageAmount>2</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>75</CycleTime>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Iron Mine Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010305" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010227</Product>
+					<Amount>2</Amount>
+					<StorageAmount>16</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Limestone Quarry Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010309" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010231</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<ModOp Path="/Values/FactoryBase" GUID="1010309" Type="add">
+		<CycleTime>15</CycleTime>
+	</ModOp>
+
+	<!-- Lumberjack's Hut Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010266" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>120008</Product>
+					<Amount>2</Amount>
+					<StorageAmount>32</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Lumberjack's Hut New World -->
+	<ModOp Path="/Values/FactoryBase" GUID="101260" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>120008</Product>
+					<Amount>2</Amount>
+					<StorageAmount>32</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>0</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Lumberjack's Hut Artic -->
+	<ModOp Path="/Values/FactoryBase" GUID="114703" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>120008</Product>
+					<Amount>2</Amount>
+					<StorageAmount>32</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Oil Refinery Old World, New World, Africa, Artic -->
+	<ModOp Path="/Values/FactoryBase" GUID="101331" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010566</Product>
+					<Amount>1</Amount>
+					<StorageAmount>200</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<ModOp Path="/Values/ModuleOwner" GUID="101331" Type="merge">
+		<ModuleBuildRadius>22</ModuleBuildRadius>
+	</ModOp>
+
+	<!-- Paper Mill Africa -->
+	<ModOp Path="/Values/FactoryBase" GUID="117744" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>117702</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Pearl Farm New World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010339" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010256</Product>
+					<Amount>1</Amount>
+					<StorageAmount>2</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>45</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Salt Works Africa -->
+	<ModOp Path="/Values/FactoryBase" GUID="114440" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>114358</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Saltpeter Works Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010310" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010232</Product>
+					<Amount>1</Amount>
+					<StorageAmount>2</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>60</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Sand Mine Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010560" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010228</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<ModOp Path="/Values/FactoryBase" GUID="1010560" Type="add">
+		<CycleTime>15</CycleTime>
+	</ModOp>
+
+	<!-- Wanza Woodcutter Africa -->
+	<ModOp Path="/Values/FactoryBase" GUID="122963" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>114356</Product>
+					<Amount>2</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Zinc Mine -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010307" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010229</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<ModOp Path="/Values/FactoryBase" GUID="1010307" Type="add">
+		<CycleTime>15</CycleTime>
+	</ModOp>
+
+</ModOps>

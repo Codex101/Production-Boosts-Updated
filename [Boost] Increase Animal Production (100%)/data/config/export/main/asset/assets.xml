@@ -1,0 +1,274 @@
+<ModOps>
+	<!-- Increase the production of animals by 50% and Doubles Storage Space to Fix Delivery Range -->
+
+	<!-- Alpaca Farm New World -->
+	<ModOp Path="/Values/FactoryBase" GUID="101272" Type="merge">
+		<FactoryOutputs>
+			<Item>
+				<Product>120036</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryOutputs>
+		<IsMainFactory>1</IsMainFactory>
+	</ModOp>
+
+	<ModOp Path="/Values/FactoryBase" GUID="101272" Type="add">
+		<CycleTime>15</CycleTime>
+	</ModOp>
+
+	<!-- Apiary Africa -->
+	<ModOp Path="/Values/FactoryBase" GUID="114453" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>114370</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Bear Hunting Cabin Artic -->
+	<ModOp Path="/Values/FactoryBase" GUID="112673" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>112695</Product>
+					<Amount>1</Amount>
+					<StorageAmount>4</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>45</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Caribou Hunting Cabin Artic -->
+	<ModOp Path="/Values/FactoryBase" GUID="112667" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>112694</Product>
+					<Amount>1</Amount>
+					<StorageAmount>4</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>30</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Cattle Farm Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010263" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010193</Product>
+					<Amount>1</Amount>
+					<StorageAmount>4</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>30</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Cattle Farm New World -->
+	<ModOp Path="/Values/FactoryBase" GUID="101269" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010193</Product>
+					<Amount>1</Amount>
+					<StorageAmount>4</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>30</CycleTime>
+			<IsMainFactory>0</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Fish Oil Factory New World -->
+	<ModOp Path="/Values/FactoryBase" GUID="101262" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>120042</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Fishery Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010278" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010200</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Goat Farm Africa -->
+	<ModOp Path="/Values/FactoryBase" GUID="114456" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>114371</Product>
+					<Amount>1</Amount>
+					<StorageAmount>4</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>30</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Goose Farm Artic -->
+	<ModOp Path="/Values/FactoryBase" GUID="112676" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>112697</Product>
+					<Amount>1</Amount>
+					<StorageAmount>2</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>60</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Hunting Cabin Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010558" Type="merge">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010209</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>30</CycleTime>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Husky Farm Artic -->
+	<ModOp Path="/Values/FactoryBase" GUID="112682" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>112698</Product>
+					<Amount>1</Amount>
+					<StorageAmount>2</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>60</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Lobster Fishery Africa -->
+	<ModOp Path="/Values/FactoryBase" GUID="118729" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>118728</Product>
+					<Amount>1</Amount>
+					<StorageAmount>4</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>30</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Pig Farm -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010269" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010199</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>30</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Sanga Farm Africa -->
+	<ModOp Path="/Values/FactoryBase" GUID="114439" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>114357</Product>
+					<Amount>1</Amount>
+					<StorageAmount>4</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>30</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Seal Hunting Dock Artic -->
+	<ModOp Path="/Values/FactoryBase" GUID="112674" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>112696</Product>
+					<Amount>1</Amount>
+					<StorageAmount>6</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Sheep Farm Old World -->
+	<ModOp Path="/Values/FactoryBase" GUID="1010267" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>1010197</Product>
+					<Amount>1</Amount>
+					<StorageAmount>8</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>15</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	<!-- Whaling Station Artic -->
+	<ModOp Path="/Values/FactoryBase" GUID="112666" Type="replace">
+		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>112699</Product>
+					<Amount>1</Amount>
+					<StorageAmount>4</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>30</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+
+	</ModOps>
