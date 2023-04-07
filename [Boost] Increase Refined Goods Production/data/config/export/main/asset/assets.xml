@@ -180,18 +180,6 @@
 	<!-- Furnace -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010297" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010227</Product>
-					<Amount>1</Amount>
-					<StorageAmount>16</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010226</Product>
-					<Amount>1</Amount>
-					<StorageAmount>16</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010219</Product>
@@ -202,7 +190,22 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
-
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010297" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010227</Product>
+				<Amount>1</Amount>
+				<StorageAmount>16</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010226</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+	
 	<!-- Steelworks -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010296" Type="merge">
 		<FactoryBase>
@@ -314,18 +317,6 @@
 	<!-- Brewery -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010292" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010194</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010236</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010214</Product>
@@ -336,6 +327,21 @@
 			<CycleTime>45</CycleTime>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010292" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010194</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010236</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Artisans -->
@@ -364,18 +370,6 @@
 	<!-- Window Makers -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010285" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>120008</Product>
-					<Amount>1</Amount>
-					<StorageAmount>16</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010241</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010207</Product>
@@ -387,22 +381,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010285" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>120008</Product>
+				<Amount>1</Amount>
+				<StorageAmount>16</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010241</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Artisanal Kitchen -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010293" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010193</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010198</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010215</Product>
@@ -415,21 +412,24 @@
 		</FactoryBase>
 	</ModOp>
 
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010293" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010193</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010198</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+
 	<!-- Cannery -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010295" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010227</Product>
-					<Amount>1</Amount>
-					<StorageAmount>16</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010215</Product>
-					<Amount>1</Amount>
-					<StorageAmount>4</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010217</Product>
@@ -441,22 +441,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010295" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010227</Product>
+				<Amount>1</Amount>
+				<StorageAmount>16</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010215</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Sewing Machine Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010284" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>120008</Product>
-					<Amount>1</Amount>
-					<StorageAmount>16</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010219</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010206</Product>
@@ -467,22 +470,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010284" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>120008</Product>
+				<Amount>1</Amount>
+				<StorageAmount>16</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010219</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Fur Dealer -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010325" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010209</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010240</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010247</Product>
@@ -493,24 +499,27 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010325" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010209</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010240</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Engineers -->
 
 	<!-- Concrete Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010280" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010231</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010219</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010202</Product>
@@ -522,22 +531,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010280" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010231</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010219</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Brass Smeltery -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010282" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010229</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010230</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010204</Product>
@@ -549,22 +561,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010282" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010229</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010230</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Spectacle Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="101250" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010241</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010204</Product>
-					<Amount>1</Amount>
-					<StorageAmount>4</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>120030</Product>
@@ -576,22 +591,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="101250" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010241</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010204</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Dynamite Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010300" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010234</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010232</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010222</Product>
@@ -603,22 +621,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010300" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010234</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010232</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Bicycle Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010323" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010255</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010219</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010245</Product>
@@ -629,22 +650,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010323" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010255</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010219</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Motor Assembly Line -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010302" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010219</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010204</Product>
-					<Amount>1</Amount>
-					<StorageAmount>4</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010224</Product>
@@ -655,6 +679,21 @@
 			<CycleTime>90</CycleTime>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010302" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010219</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010204</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Fuel Station -->
@@ -685,18 +724,6 @@
 	<!-- Goldsmiths -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010327" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010226</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010233</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010249</Product>
@@ -708,22 +735,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010327" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010226</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010233</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Clockmakers -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010324" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010241</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010249</Product>
-					<Amount>1</Amount>
-					<StorageAmount>4</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010246</Product>
@@ -734,6 +764,21 @@
 			<CycleTime>90</CycleTime>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010324" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010241</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010249</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Filament Factory -->
@@ -761,18 +806,6 @@
 	<!-- Light Bulb Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010286" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010241</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010243</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010208</Product>
@@ -785,24 +818,26 @@
 		</FactoryBase>
 	</ModOp>
 
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010286" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010241</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010243</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Investors -->
 
 	<!-- Champagne Cellar -->
 	<ModOp Path="/Values/FactoryBase" GUID="100659" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>120014</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010241</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>120016</Product>
@@ -812,6 +847,21 @@
 			</FactoryOutputs>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="100659" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>120014</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010241</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Marquetry Workshop -->
@@ -839,18 +889,6 @@
 	<!-- Cigar Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010342" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010252</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010242</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010259</Product>
@@ -861,22 +899,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010342" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010252</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010242</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Jewellers -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010328" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010256</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010249</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010250</Product>
@@ -887,22 +928,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010328" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010256</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010249</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Gramophone Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010326" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010242</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010204</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010248</Product>
@@ -914,22 +958,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010326" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010242</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010204</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Coachmakers -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010289" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>120008</Product>
-					<Amount>1</Amount>
-					<StorageAmount>16</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010255</Product>
-					<Amount>1</Amount>
-					<StorageAmount>4</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010211</Product>
@@ -941,22 +988,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010289" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>120008</Product>
+				<Amount>1</Amount>
+				<StorageAmount>16</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010255</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Cab Assembly Line -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010303" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010211</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010224</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010225</Product>
@@ -967,6 +1017,21 @@
 			<CycleTime>45</CycleTime>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010303" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010211</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010224</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Scholars -->
@@ -996,18 +1061,6 @@
 	<!-- Tailor's Shop -->
 	<ModOp Path="/Values/FactoryBase" GUID="118734" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>114391</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010240</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>114430</Product>
@@ -1019,22 +1072,26 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="118734" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>114391</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010240</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+
 
 	<!-- Telephone Manufacturer -->
 	<ModOp Path="/Values/FactoryBase" GUID="118735" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010243</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010242</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>114431</Product>
@@ -1045,6 +1102,21 @@
 			<CycleTime>90</CycleTime>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="118735" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010243</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010242</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Advanced Coffee Roaster -->
@@ -1067,22 +1139,10 @@
 			<CycleTime>45</CycleTime>
 		</FactoryBase>
 	</ModOp>
-
+	
 	<!-- Advanced Rum Distillery -->
 	<ModOp Path="/Values/FactoryBase" GUID="124737" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010226</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010195</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010257</Product>
@@ -1093,22 +1153,25 @@
 			<CycleTime>45</CycleTime>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="124737" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010226</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010195</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Advanced Cotton Mill -->
 	<ModOp Path="/Values/FactoryBase" GUID="124739" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010197</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>120008</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010240</Product>
@@ -1120,6 +1183,20 @@
 		</FactoryBase>
 	</ModOp>
 
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="124739" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010197</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>120008</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- New World Jornaleros -->
 
@@ -1162,18 +1239,6 @@
 	<!-- Fired Plantain Kitchen -->
 	<ModOp Path="/Values/FactoryBase" GUID="101264" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>120042</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>120041</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>120033</Product>
@@ -1185,21 +1250,25 @@
 		</FactoryBase>
 	</ModOp>
 	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="101264" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>120042</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>120041</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+
+	
 	<!-- Rum Distillery -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010340" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>120008</Product>
-					<Amount>1</Amount>
-					<StorageAmount>16</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010251</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010257</Product>
@@ -1210,6 +1279,22 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010340" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>120008</Product>
+				<Amount>1</Amount>
+				<StorageAmount>16</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010251</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+	
 	<!-- Cotton Mill -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010318" Type="merge">
 		<FactoryBase>
@@ -1230,6 +1315,7 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+
 
 	<ModOp Path="/Values/FactoryBase" GUID="1010318" Type="add">
 		<CycleTime>45</CycleTime>
@@ -1308,18 +1394,6 @@
 	<!-- Tortilla Maker -->
 	<ModOp Path="/Values/FactoryBase" GUID="101271" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010193</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>120034</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>120035</Product>
@@ -1329,6 +1403,21 @@
 			</FactoryOutputs>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="101271" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010193</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>120034</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Coffee Roaster -->
@@ -1376,18 +1465,6 @@
 	<!-- Bombin Weaver -->
 	<ModOp Path="/Values/FactoryBase" GUID="101273" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010240</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>120044</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>120037</Product>
@@ -1398,6 +1475,22 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="101273" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010240</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>120044</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+
 
 	<!-- Fuel Station New World -->
 	<ModOp Path="/Values/FactoryBase" GUID="269840" Type="merge">
@@ -1451,18 +1544,6 @@
 	<!-- Cigar Facotry -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010342" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010252</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010242</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010259</Product>
@@ -1472,6 +1553,21 @@
 			</FactoryOutputs>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010342" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010252</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010242</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Sugar Refinery -->
@@ -1498,18 +1594,6 @@
 	<!-- Chocolate Facotry -->
 	<ModOp Path="/Values/FactoryBase" GUID="1010341" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010254</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010239</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>1010258</Product>
@@ -1519,6 +1603,21 @@
 			</FactoryOutputs>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="1010341" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010254</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010239</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Artic -->
@@ -1549,18 +1648,6 @@
 	<!-- Pemmican Cookhouse -->
 	<ModOp Path="/Values/FactoryBase" GUID="112668" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>112699</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>112694</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>112705</Product>
@@ -1572,22 +1659,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="112668" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>112699</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>112694</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Sleeping Bag Facotry -->
 	<ModOp Path="/Values/FactoryBase" GUID="112675" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>112696</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>112697</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>112701</Product>
@@ -1599,22 +1689,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="112675" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>112696</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>112697</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Oil Lamp Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="112679" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>112699</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010204</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>112702</Product>
@@ -1626,24 +1719,27 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="112679" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>112699</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010204</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Artic Technician's -->
 
 	<!-- Parka Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="112672" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>112695</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>112696</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>112700</Product>
@@ -1655,22 +1751,26 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="112672" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>112695</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>112696</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+
 
 	<!-- Sled Frame Factory -->
 	<ModOp Path="/Values/FactoryBase" GUID="112681" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>112696</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>120008</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>112704</Product>
@@ -1682,22 +1782,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="112681" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>112696</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>120008</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Husky Sleed Facotry -->
 	<ModOp Path="/Values/FactoryBase" GUID="112680" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>112698</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>112704</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>112703</Product>
@@ -1708,6 +1811,21 @@
 			<CycleTime>45</CycleTime>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="112680" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>112698</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>112704</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Enbesa -->
@@ -1760,18 +1878,6 @@
 	<!-- Dry-House -->
 	<ModOp Path="/Values/FactoryBase" GUID="114444" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>114357</Product>
-					<Amount>1</Amount>
-					<StorageAmount>3</StorageAmount>
-				</Item>
-				<Item>
-					<Product>114358</Product>
-					<Amount>1</Amount>
-					<StorageAmount>4</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>114359</Product>
@@ -1781,6 +1887,21 @@
 			</FactoryOutputs>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="114444" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>114357</Product>
+				<Amount>1</Amount>
+				<StorageAmount>3</StorageAmount>
+			</Item>
+			<Item>
+				<Product>114358</Product>
+				<Amount>1</Amount>
+				<StorageAmount>4</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Tea Spicer -->
@@ -1810,18 +1931,6 @@
 	<!-- Brick Dry-House -->
 	<ModOp Path="/Values/FactoryBase" GUID="114467" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010201</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>114367</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>114402</Product>
@@ -1833,22 +1942,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="114467" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010201</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>114367</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Ceramics Workshop -->
 	<ModOp Path="/Values/FactoryBase" GUID="118725" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>114368</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010201</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>118724</Product>
@@ -1859,22 +1971,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="118725" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>114368</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010201</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Tapestry Looms -->
 	<ModOp Path="/Values/FactoryBase" GUID="114469" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>114368</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>114391</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>114404</Product>
@@ -1886,21 +2001,24 @@
 		</FactoryBase>
 	</ModOp>
 	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="114469" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>114368</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>114391</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+	
 	<!-- Teff Mill -->
 	<ModOp Path="/Values/FactoryBase" GUID="114459" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>114367</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>114369</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>114408</Product>
@@ -1911,22 +2029,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="114459" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>114367</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>114369</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Wat Kitchen -->
 	<ModOp Path="/Values/FactoryBase" GUID="114471" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>114408</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-				<Item>
-					<Product>118728</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>114410</Product>
@@ -1938,22 +2059,25 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="114471" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>114408</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+			<Item>
+				<Product>118728</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
 
 	<!-- Pipe Maker -->
 	<ModOp Path="/Values/FactoryBase" GUID="114472" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>1010201</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010252</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>114414</Product>
@@ -1964,6 +2088,21 @@
 			<CycleTime>90</CycleTime>
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="114472" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>1010201</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010252</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
 	</ModOp>
 
 	<!-- Paper Mill -->
@@ -1991,18 +2130,6 @@
 	<!-- Luminer -->
 	<ModOp Path="/Values/FactoryBase" GUID="114470" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>114368</Product>
-					<Amount>1</Amount>
-					<StorageAmount>6</StorageAmount>
-				</Item>
-				<Item>
-					<Product>117702</Product>
-					<Amount>1</Amount>
-					<StorageAmount>8</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>117698</Product>
@@ -2014,6 +2141,22 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="114470" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>114368</Product>
+				<Amount>1</Amount>
+				<StorageAmount>6</StorageAmount>
+			</Item>
+			<Item>
+				<Product>117702</Product>
+				<Amount>1</Amount>
+				<StorageAmount>8</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+
 
 	<!-- Enbesa Fuel Station -->
 	<ModOp Path="/Values/FactoryBase" GUID="119028" Type="merge">
@@ -2042,18 +2185,6 @@
 	<!-- Chandler -->
 	<ModOp Path="/Values/FactoryBase" GUID="114461" Type="merge">
 		<FactoryBase>
-			<FactoryInputs>
-				<Item>
-					<Product>114370</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-				<Item>
-					<Product>1010253</Product>
-					<Amount>1</Amount>
-					<StorageAmount>12</StorageAmount>
-				</Item>
-			</FactoryInputs>
 			<FactoryOutputs>
 				<Item>
 					<Product>117701</Product>
@@ -2064,10 +2195,39 @@
 			<IsMainFactory>1</IsMainFactory>
 		</FactoryBase>
 	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="114461" Type="replace">
+		<FactoryInputs>
+			<Item>
+				<Product>114370</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+			<Item>
+				<Product>1010253</Product>
+				<Amount>1</Amount>
+				<StorageAmount>12</StorageAmount>
+			</Item>
+		</FactoryInputs>
+	</ModOp>
+
 
 	<!-- Lanternsmith -->
 	<ModOp Path="/Values/FactoryBase" GUID="114464" Type="merge">
 		<FactoryBase>
+			<FactoryOutputs>
+				<Item>
+					<Product>117699</Product>
+					<Amount>1</Amount>
+					<StorageAmount>4</StorageAmount>
+				</Item>
+			</FactoryOutputs>
+			<CycleTime>45</CycleTime>
+			<IsMainFactory>1</IsMainFactory>
+		</FactoryBase>
+	</ModOp>
+	
+	<ModOp Path="/Values/FactoryBase/FactoryInputs" GUID="114464" Type="replace">
 			<FactoryInputs>
 				<Item>
 					<Product>1010241</Product>
@@ -2080,15 +2240,5 @@
 					<StorageAmount>8</StorageAmount>
 				</Item>
 			</FactoryInputs>
-			<FactoryOutputs>
-				<Item>
-					<Product>117699</Product>
-					<Amount>1</Amount>
-					<StorageAmount>4</StorageAmount>
-				</Item>
-			</FactoryOutputs>
-			<CycleTime>45</CycleTime>
-			<IsMainFactory>1</IsMainFactory>
-		</FactoryBase>
 	</ModOp>
 </ModOps>
